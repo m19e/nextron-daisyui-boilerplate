@@ -1,8 +1,8 @@
-import React from "react";
-import Head from "next/head";
-import Link from "next/link";
+import React from "react"
+import Head from "next/head"
+import Link from "next/link"
 
-import { Button } from "react-daisyui";
+import { Button } from "react-daisyui"
 
 function Next() {
   return (
@@ -23,7 +23,7 @@ function Next() {
         </Link>
       </div>
     </React.Fragment>
-  );
+  )
 }
 
-export default Next;
+export default Next
