@@ -12,7 +12,13 @@
     ],
     "rules": {
         "no-unused-vars": "off", // or "@typescript-eslint/no-unused-vars": "off",
+        "tailwindcss/classnames-order": "warn",
+        "tailwindcss/enforces-negative-arbitrary-values": "warn",
+        "tailwindcss/enforces-shorthand": "warn",
+        "tailwindcss/migration-from-tailwind-2": "warn",
+        "tailwindcss/no-arbitrary-value": "off",
         "tailwindcss/no-custom-classname": "off",
+        "tailwindcss/no-contradicting-classname": "error",
         "unused-imports/no-unused-imports": "warn",
         "unused-imports/no-unused-vars": [
             "warn",
