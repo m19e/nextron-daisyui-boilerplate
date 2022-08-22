@@ -1,7 +1,6 @@
-import React from "react"
 import Head from "next/head"
 import Link from "next/link"
-
+import React from "react"
 import { Button } from "react-daisyui"
 
 function Next() {
@@ -10,14 +9,14 @@ function Next() {
       <Head>
         <title>Next - Nextron (with-typescript-tailwindcss)</title>
       </Head>
-      <div className="grid grid-col-1 text-2xl w-full text-center">
-        <img className="ml-auto mr-auto" src="/images/logo.png" />
+      <div className="grid-col-1 grid w-full text-center text-2xl">
+        <img className="mx-auto" src="/images/logo.png" />
         <span>⚡ Nextron ⚡</span>
       </div>
-      <div className="w-full grid place-items-center">
+      <div className="grid w-full place-items-center">
         <Button color="primary">Button test</Button>
       </div>
-      <div className="mt-1 w-full flex-wrap flex justify-center">
+      <div className="mt-1 flex w-full flex-wrap justify-center">
         <Link href="/home">
           <a className="btn-blue">Go to home page</a>
         </Link>
