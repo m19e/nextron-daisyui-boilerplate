@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "my-nextron-app",
-  "description": "My application description",
+  "name": "clara-editor",
+  "description": "Text Editor with vertical typing",
   "version": "1.0.0",
-  "author": "Yoshihide Shiono <shiono.yoshihide@gmail.com>",
+  "author": "m19e",
   "main": "app/background.js",
   "scripts": {
     "dev": "nextron",
